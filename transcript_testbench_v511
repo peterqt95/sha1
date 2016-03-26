@@ -1,0 +1,341 @@
+# 
+# ** Note: $stop    : C:/Users/Peter/Desktop/ECE111/SHA1/SHA1_hash_testbench.v(232)
+#    Time: 5110 ps  Iteration: 2  Instance: /SHA1_hash_testbench
+# Break in Module SHA1_hash_testbench at C:/Users/Peter/Desktop/ECE111/SHA1/SHA1_hash_testbench.v line 232
+vlog -reportprogress 300 -work work C:/Users/Peter/Desktop/ECE111/SHA1/SHA1_hash.v
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 12:09:45 on Mar 16,2016
+# vlog -reportprogress 300 -work work C:/Users/Peter/Desktop/ECE111/SHA1/SHA1_hash.v 
+# -- Compiling module SHA1_hash
+# 
+# Top level modules:
+# 	SHA1_hash
+# End time: 12:09:45 on Mar 16,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Peter/Desktop/ECE111/SHA1/SHA1_hash_testbench_511.v
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 12:09:45 on Mar 16,2016
+# vlog -reportprogress 30 -work work C:/Users/Peter/Desktop/ECE111/SHA1/SHA1_hash_testbench_511.v 
+# -- Compiling module SHA1_hash_testbench
+# 
+# Top level modules:
+# 	SHA1_hash_testbench
+# End time: 12:09:45 on Mar 16,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.SHA1_hash_testbench
+# End time: 12:10:03 on Mar 16,2016, Elapsed time: 0:02:30
+# Errors: 0, Warnings: 0
+# vsim work.SHA1_hash_testbench 
+# Start time: 12:10:03 on Mar 16,2016
+# Loading work.SHA1_hash_testbench
+# Loading work.SHA1_hash
+add wave sim:/SHA1_hash_testbench/*
+run -all
+# Error: memory reference not word aligned!
+# 
+# Error: memory reference not word aligned!
+# 
+# Error: memory reference not word aligned!
+# 
+# Error: memory reference not word aligned!
+# 
+# Error: memory reference not word aligned!
+# 
+# -----------
+# 
+# Messagetext
+# 
+# -----------
+# 
+# 01234567
+# 
+# 02468ace
+# 
+# 048d159c
+# 
+# 091a2b38
+# 
+# 12345670
+# 
+# 2468ace0
+# 
+# 48d159c0
+# 
+# 91a2b380
+# 
+# 23456701
+# 
+# 468ace02
+# 
+# 8d159c04
+# 
+# 1a2b3809
+# 
+# 34567012
+# 
+# 68ace024
+# 
+# d159c048
+# 
+# a2b38091
+# 
+# 45670123
+# 
+# 8ace0246
+# 
+# 159c048d
+# 
+# 2b38091a
+# 
+# 56701234
+# 
+# ace02468
+# 
+# 59c048d1
+# 
+# b38091a2
+# 
+# 67012345
+# 
+# ce02468a
+# 
+# 9c048d15
+# 
+# 38091a2b
+# 
+# 70123456
+# 
+# e02468ac
+# 
+# c048d159
+# 
+# 8091a2b3
+# 
+# 01234567
+# 
+# 02468ace
+# 
+# 048d159c
+# 
+# 091a2b38
+# 
+# 12345670
+# 
+# 2468ace0
+# 
+# 48d159c0
+# 
+# 91a2b380
+# 
+# 23456701
+# 
+# 468ace02
+# 
+# 8d159c04
+# 
+# 1a2b3809
+# 
+# 34567012
+# 
+# 68ace024
+# 
+# d159c048
+# 
+# a2b38091
+# 
+# 45670123
+# 
+# 8ace0246
+# 
+# 159c048d
+# 
+# 2b38091a
+# 
+# 56701234
+# 
+# ace02468
+# 
+# 59c048d1
+# 
+# b38091a2
+# 
+# 67012345
+# 
+# ce02468a
+# 
+# 9c048d15
+# 
+# 38091a2b
+# 
+# 70123456
+# 
+# e02468ac
+# 
+# c048d159
+# 
+# 8091a2b3
+# 
+# 01234567
+# 
+# 02468ace
+# 
+# 048d159c
+# 
+# 091a2b38
+# 
+# 12345670
+# 
+# 2468ace0
+# 
+# 48d159c0
+# 
+# 91a2b380
+# 
+# 23456701
+# 
+# 468ace02
+# 
+# 8d159c04
+# 
+# 1a2b3809
+# 
+# 34567012
+# 
+# 68ace024
+# 
+# d159c048
+# 
+# a2b38091
+# 
+# 45670123
+# 
+# 8ace0246
+# 
+# 159c048d
+# 
+# 2b38091a
+# 
+# 56701234
+# 
+# ace02468
+# 
+# 59c048d1
+# 
+# b38091a2
+# 
+# 67012345
+# 
+# ce02468a
+# 
+# 9c048d15
+# 
+# 38091a2b
+# 
+# 70123456
+# 
+# e02468ac
+# 
+# c048d159
+# 
+# 8091a2b3
+# 
+# 01234567
+# 
+# 02468ace
+# 
+# 048d159c
+# 
+# 091a2b38
+# 
+# 12345670
+# 
+# 2468ace0
+# 
+# 48d159c0
+# 
+# 91a2b380
+# 
+# 23456701
+# 
+# 468ace02
+# 
+# 8d159c04
+# 
+# 1a2b3809
+# 
+# 34567012
+# 
+# 68ace024
+# 
+# d159c048
+# 
+# a2b38091
+# 
+# 45670123
+# 
+# 8ace0246
+# 
+# 159c048d
+# 
+# 2b38091a
+# 
+# 56701234
+# 
+# ace02468
+# 
+# 59c048d1
+# 
+# b38091a2
+# 
+# 67012345
+# 
+# ce02468a
+# 
+# 9c048d15
+# 
+# 38091a2b
+# 
+# 70123456
+# 
+# e02468ac
+# 
+# c048d159
+# 
+# 8091a2b3
+# 
+# Error: memory reference not word aligned!
+# 
+# ---------------------------
+# 
+# correct hash result is:
+# 
+# ---------------------------
+# 
+# 8fbbe4a8e53fc0130541ee591cd0c3f96eb8dafc
+# 
+# ---------------------------
+# 
+# Your result is:
+# 
+# ---------------------------
+# 
+# 8fbbe4a8e53fc0130541ee591cd0c3f96eb8dafc
+# 
+# ***************************
+# 
+# Congratulations! You have the correct hashing result!
+# 
+# Total number of cycles:         751
+# 
+# 
+# Keep improving your design and also try different input sizes.
+# 
+# Send Hao your best design before the deadline.
+# 
+# ***************************
+# 
+# EOF
+# 
+# ** Note: $stop    : C:/Users/Peter/Desktop/ECE111/SHA1/SHA1_hash_testbench_511.v(232)
+#    Time: 15070 ps  Iteration: 2  Instance: /SHA1_hash_testbench
+# Break in Module SHA1_hash_testbench at C:/Users/Peter/Desktop/ECE111/SHA1/SHA1_hash_testbench_511.v line 232
